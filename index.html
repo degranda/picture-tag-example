@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <!-- Practica usual -->
+      <div>
+        <img src="./img//large.jpg" alt="" />
+      </div>
+
+      <!-- Buena practica -->
+      <picture>
+        <source media="(min-width: 1300px)" srcset="./img/large.jpg" />
+        <source media="(min-width: 1000px)" srcset="./img/medium.jpg" />
+        <source media="(min-width: 600px)" srcset="./img/small.jpg" />
+        <img src="./img/small.jpg" alt="Es una imágen ejemplo" />
+      </picture>
+    </main>
+  </body>
+</html>
